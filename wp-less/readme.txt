@@ -1,10 +1,11 @@
 === WP-LESS ===
 Contributors: fabrizim,oncletom
+License: Apache-2.0
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=752034
-Tags: dev, theme, themes, toolkit, plugin-toolkit, less, lesscss, lessc, lessphp, productivity, style, stylesheet, api
+Tags: toolkit, lesscss, lessphp, styles, stylesheet
 Requires at least: 3.2
 Tested up to: 5.8
-Stable tag: trunk
+Stable tag: 1.9.8
 
 Implementation of LESS (Leaner CSS) in order to make themes development easier.
 
@@ -70,7 +71,7 @@ Warning: this release has some breaking changes. If you the old selector express
 
 = Version 1.9.0 =
 
-* feature: default less compiler is now [wikimedia/less.php](https://github.com/wikimedia/less.php)
+* feature: default less compiler is now [wikimedia/less.php](https://github.com/wikimedia/less.php) ([#117](https://github.com/oncletom/wp-less/pull/117))
 * feature: output is compressed by default
 
 = Version 1.8.0 =
